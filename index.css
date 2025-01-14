@@ -1,0 +1,148 @@
+*{
+    text-decoration: none;
+    list-style: none;
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    transition: 400ms;
+}
+#header{
+    display: flex;
+    justify-content: space-around;
+    background-color: rgb(10, 12, 67);
+    height: 100px;
+    padding-top: 30px;
+    position: sticky;
+    top: 0;
+    z-index: 1;
+}
+#header ul{
+    display: flex;
+    gap: 40px;
+} 
+#header a{
+    color: white;
+    padding: 10px;
+}
+.sign-up{
+   background: blue;
+   border-radius: 20%;
+}
+.section1{
+    background-color: rgb(10, 12, 67) ;
+    color: white;
+    display: flex;
+    justify-content: space-around;
+    padding: 100px 50px 50px;
+    height: calc(100vh - 100px);
+    position: relative;
+}
+.section1 img{
+    width: 500px;
+    top: 205px;
+    animation: img-section1 800ms 1s 1;
+    position: absolute;
+    right: 250px;
+}
+@keyframes img-section1{
+    0%{
+        transform: translateX(-60px);
+        filter: opacity(0);
+    }
+    100%{
+        
+    }
+}
+.section1 a{
+    color: white;
+    padding: 20px;
+    background-color: blue;
+    border-radius: 20px;
+    animation: section1-a 800ms 1;
+}
+@keyframes section1-a{
+    0%{
+        transform:  translateX(60px);
+        filter: opacity(0);
+    }
+    100%{
+
+    }
+}
+.section1 h1 {
+    font-size: 40px;
+    margin: 20px 0px 60px ;
+    position: absolute;
+    width: 900px;
+    animation: section1-h1 800ms 1s 1;
+}
+@keyframes section1-h1{
+    0%{
+        transform: translateX(-60px);
+        filter: opacity(0);
+    }
+    100%{
+
+    }
+}
+
+.section1 p {
+    font-size: 20px;
+    margin: 150px 0px 60px ;
+    animation: section1-p 800ms 1s 1;
+    width: 500px;
+}
+@keyframes section1-p{
+    0%{
+        transform: translateX(60px);
+        filter: opacity(0);
+    }
+    100%{
+
+    }
+}
+.section2{
+    display: flex;
+    justify-content: space-around;
+    height: calc(100vh - 100px);
+    padding-top: 100px;
+    background-color: #eee;
+    animation: section2 400ms 1s 1 ;
+}
+@keyframes section2{
+    0%{
+        transform: translateX(-60px);
+        filter: opacity(0);
+    }
+    100%{
+
+    }
+}
+.black-p{
+    font-size: 40px;
+    width: 500px;
+}
+.blue-p{
+    color: blue;
+    font-size: 40px;
+    width: 500px;
+    margin-bottom: 40px;
+}
+.section2 input{
+    padding: 20px;
+    border: none ;
+    border-radius: 20px;
+    margin-right:10px;
+}
+.section2 button{
+    background-color: blue;
+    color: white;
+    padding: 20px;
+    border: none;
+    border-radius: 20px;
+}
+.sec2-div2{
+    margin-top: 83px;
+}
+
